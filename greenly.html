@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenly</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logogreenly">
+                <i class="i-greenly"></i>
+                <h1 class="greenly">Greenly</h1>
+                <!-- <img src="greenly-green.png" alt="Logo Greenly" class="greenly-image"> -->
+            </div>
+            
+            <nav class="nav-desktop">
+                <a href="#inicio" class="nav-item">Início</a>
+                <a href="#produtos" class="nav-item">Produtos</a>
+                <a href="#sobre" class="nav-item">Sobre Nós</a>
+                <a href="#beneficios" class="nav-item">Benefícios</a>
+                <a href="#contato" class="nav-item">Contato</a>
+            </nav>
+            
+            <div class="header-buttons">
+                <button class="icon-button">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button class="menu-toggle icon-button mobile-only">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <section id="inicio" class="inicio-section">
+        <div class="leaf-bg"></div>
+        <div class="inicio-container">
+            <div class="inicio-content">
+                <h2 class="title-section title-color">Ervas Naturais para uma Vida Mais Saudável</h2>
+                <p class="subtitle-section">Descubra a qualidade e pureza das nossas ervas cultivadas com cuidado e respeito pela natureza.</p>
+                <div class="btn-container">
+                    <a href="#produtos" class="btn-primary">Nossos Produtos</a>
+                    <a href="#contato" class="btn-secondary">Fale Conosco</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="produtos" class="produtos-secao">
+        <div class="container-principal">
+            <div class="cabecalho-produtos">
+                <h2 class="titulo-secao">Nossas Ervas Selecionadas</h2>
+                <p class="descricao-secao">
+                    Cultivadas organicamente e colhidas no momento perfeito para garantir máxima qualidade e benefícios.
+                </p>
+            </div>
+    
+            <div class="grade-produtos">
+                <!-- Produto 1 -->
+                <div class="cartao-erva">
+                    <div class="imagem-erva">
+                        <i class="fas fa-leaf icone-erva"></i>
+                    </div>
+                    <div class="conteudo-erva">
+                        <h3 class="nome-erva">Hortelã</h3>
+                        <p class="descricao-erva">Refrescante e digestiva, perfeita para chás e drinks.</p>
+                        <div class="rodape-erva">
+                            <span class="preco-erva">R$ 12,90</span>
+                            <button class="botao-adicionar">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Produto 2 -->
+                <div class="cartao-erva">
+                    <div class="imagem-erva">
+                        <i class="fas fa-leaf icone-erva"></i>
+                    </div>
+                    <div class="conteudo-erva">
+                        <h3 class="nome-erva">Camomila</h3>
+                        <p class="descricao-erva">Calmante natural, ideal para relaxar antes de dormir.</p>
+                        <div class="rodape-erva">
+                            <span class="preco-erva">R$ 10,90</span>
+                            <button class="botao-adicionar">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Produto 3 -->
+                <div class="cartao-erva">
+                    <div class="imagem-erva">
+                        <i class="fas fa-leaf icone-erva"></i>
+                    </div>
+                    <div class="conteudo-erva">
+                        <h3 class="nome-erva">Alecrim</h3>
+                        <p class="descricao-erva">Estimulante e aromático, excelente para temperos.</p>
+                        <div class="rodape-erva">
+                            <span class="preco-erva">R$ 9,90</span>
+                            <button class="botao-adicionar">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Produto 4 -->
+                <div class="cartao-erva">
+                    <div class="imagem-erva">
+                        <i class="fas fa-leaf icone-erva"></i>
+                    </div>
+                    <div class="conteudo-erva">
+                        <h3 class="nome-erva">Manjericão</h3>
+                        <p class="descricao-erva">Versátil e saboroso, essencial na culinária italiana.</p>
+                        <div class="rodape-erva">
+                            <span class="preco-erva">R$ 11,90</span>
+                            <button class="botao-adicionar">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="rodape-secao">
+                <a href="#" class="botao-ver-todos">
+                    Ver Todos os Produtos
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre-secao">
+        <div class="container-principal">
+            <div class="conteudo-flex">
+                <div class="bloco-imagem">
+                    <div class="moldura-imagem">
+                        <div class="proporcao-imagem">
+                            <div class="placeholder-imagem">
+                                <i class="fas fa-seedling icone-seedling"></i>
+                            </div>
+                        </div>
+                        <div class="borda-decorativa"></div>
+                    </div>
+                </div>
+                
+                <div class="bloco-texto">
+                    <h2 class="titulo-sobre">Nossa História</h2>
+                    <p class="paragrafo-sobre">A Greenly nasceu em 2024, quando dois jovens decidiram transformar a paixão pelas plantas em um projeto real. Com acesso a uma grande variedade de ervas e muito interesse por cultivo natural, começaram a produzir de forma artesanal, unindo bem-estar e consciência ambiental.</p>
+                    <p class="paragrafo-sobre">Hoje, mesmo com o crescimento da marca, mantemos o cuidado de sempre: cultivamos sem agrotóxicos, replantamos tudo o que colhemos e fazemos questão de manter cada processo o mais natural possível. Acreditamos no poder das plantas e no impacto positivo de viver em harmonia com a natureza.</p>
+                    
+                    <div class="grid-beneficios">
+                        <div class="item-beneficio">
+                            <div class="icone-beneficio">
+                                <i class="fas fa-check icone-check"></i>
+                            </div>
+                            <span class="texto-beneficio">100% Orgânico</span>
+                        </div>
+                        <div class="item-beneficio">
+                            <div class="icone-beneficio">
+                                <i class="fas fa-check icone-check"></i>
+                            </div>
+                            <span class="texto-beneficio">Colheita Sustentável</span>
+                        </div>
+                        <div class="item-beneficio">
+                            <div class="icone-beneficio">
+                                <i class="fas fa-check icone-check"></i>
+                            </div>
+                            <span class="texto-beneficio">Compromisso com a Natureza</span>
+                        </div>
+                        <div class="item-beneficio">
+                            <div class="icone-beneficio">
+                                <i class="fas fa-check icone-check"></i>
+                            </div>
+                            <span class="texto-beneficio">Frete Grátis em Maringá</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="botao-conhecer">
+                        Conheça Nossas Hortas
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios Section -->
+    <section id="beneficios" class="secao-beneficios">
+        <div class="container-principal">
+            <div class="cabecalho-beneficios">
+                <h2 class="titulo-beneficios">Benefícios das Nossas Ervas</h2>
+                <p class="descricao-beneficios">Descubra como nossas ervas podem transformar sua saúde e bem-estar.</p>
+            </div>
+            
+            <div class="grade-beneficios">
+                <div class="cartao-beneficio">
+                    <div class="icone-container">
+                        <i class="fas fa-heart icone-beneficio"></i>
+                    </div>
+                    <h3 class="titulo-cartao">Saúde Cardiovascular</h3>
+                    <p class="texto-cartao">Muitas de nossas ervas ajudam a regular a pressão arterial e melhorar a circulação sanguínea.</p>
+                </div>
+                
+                <div class="cartao-beneficio">
+                    <div class="icone-container">
+                        <i class="fas fa-brain icone-beneficio"></i>
+                    </div>
+                    <h3 class="titulo-cartao">Bem-estar Mental</h3>
+                    <p class="texto-cartao">Ervas como camomila e erva-cidreira auxiliam no combate ao estresse e ansiedade.</p>
+                </div>
+                
+                <div class="cartao-beneficio">
+                    <div class="icone-container">
+                        <i class="fas fa-utensils icone-beneficio"></i>
+                    </div>
+                    <h3 class="titulo-cartao">Culinária Saudável</h3>
+                    <p class="texto-cartao">Temperos naturais que reduzem a necessidade de sal e realçam o sabor dos alimentos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avaliaçãos -->
+    <section class="secao-depoimentos">
+        <div class="container-principal">
+            <div class="cabecalho-depoimentos">
+                <h2 class="titulo-depoimentos">O Que Nossos Clientes Dizem</h2>
+                <p class="descricao-depoimentos">A satisfação dos nossos clientes é nossa maior recompensa.</p>
+            </div>
+            
+            <div class="grade-depoimentos">
+                <div class="cartao-depoimento">
+                    <div class="avaliacao-cliente">
+                        <div class="estrelas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="texto-depoimento">"As ervas da Greenly transformaram meus chás. A qualidade é incomparável e o aroma é incrível!"</p>
+                    <div class="cliente-info">
+                        <div class="avatar-cliente">
+                            <i class="fas fa-user icone-usuario"></i>
+                        </div>
+                        <div class="dados-cliente">
+                            <h4 class="nome-cliente">Ana Silva</h4>
+                            <p class="status-cliente">Cliente desde 2018</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cartao-depoimento">
+                    <div class="avaliacao-cliente">
+                        <div class="estrelas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="texto-depoimento">"Comprei o kit de temperos e minha cozinha nunca foi a mesma. Frescor e sabor que fazem toda diferença."</p>
+                    <div class="cliente-info">
+                        <div class="avatar-cliente">
+                            <i class="fas fa-user icone-usuario"></i>
+                        </div>
+                        <div class="dados-cliente">
+                            <h4 class="nome-cliente">Carlos Mendes</h4>
+                            <p class="status-cliente">Chef de Cozinha</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cartao-depoimento">
+                    <div class="avaliacao-cliente">
+                        <div class="estrelas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p class="texto-depoimento">"Ótimo atendimento e produtos de primeira. Meus problemas de insônia melhoraram muito com os chás calmantes."</p>
+                    <div class="cliente-info">
+                        <div class="avatar-cliente">
+                            <i class="fas fa-user icone-usuario"></i>
+                        </div>
+                        <div class="dados-cliente">
+                            <h4 class="nome-cliente">Mariana Costa</h4>
+                            <p class="status-cliente">Cliente desde 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contato-->
+    <section class="py-16 bg-greenly-800 text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-4">Receba Nossas Novidades</h2>
+                <p class="text-greenly-200 mb-8">Assine nossa newsletter e receba promoções exclusivas, dicas de uso e novidades sobre nossos produtos.</p>
+                
+                <form class="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
+                    <input type="email" placeholder="Seu melhor e-mail" class="flex-grow px-4 py-3 rounded-lg text-greenly-800 focus:outline-none focus:ring-2 focus:ring-greenly-500">
+                    <button type="submit" class="bg-greenly-600 hover:bg-greenly-700 font-medium py-3 px-6 rounded-lg transition duration-300 whitespace-nowrap">
+                        Assinar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="secao-contato">
+        <div class="container-principal">
+            <div class="layout-contato">
+                <div class="bloco-informacoes">
+                    <h2 class="titulo-contato">Entre em Contato</h2>
+                    <p class="descricao-contato">Tem dúvidas sobre nossos produtos? Quer fazer um pedido especial? Estamos aqui para ajudar!</p>
+                    
+                    <div class="lista-contatos">
+                        <div class="item-contato">
+                            <div class="icone-wrapper">
+                                <i class="fas fa-map-marker-alt icone-contato"></i>
+                            </div>
+                            <div class="info-contato">
+                                <h4 class="subtitulo-contato">Endereço</h4>
+                                <p class="texto-contato">Rua Cristal, 1927 - Residencial Morechi<br>Maringá-PR - CEP 87083060</p>
+                            </div>
+                        </div>
+                        
+                        <div class="item-contato">
+                            <div class="icone-wrapper">
+                                <i class="fas fa-phone-alt icone-contato"></i>
+                            </div>
+                            <div class="info-contato">
+                                <h4 class="subtitulo-contato">Telefone</h4>
+                                <p class="texto-contato">(44) 99752-0113</p>
+                            </div>
+                        </div>
+                        
+                        <div class="item-contato">
+                            <div class="icone-wrapper">
+                                <i class="fas fa-envelope icone-contato"></i>
+                            </div>
+                            <div class="info-contato">
+                                <h4 class="subtitulo-contato">E-mail</h4>
+                                <p class="texto-contato">contato@greenly.com.br</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="redes-sociais">
+                        <a href="https://www.facebook.com" target="_blank" class="botao-social">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a h href="https://www.instagram.com" target="_blank" class="botao-social">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a  href="https://www.whatsapp.com" target="_blank"class="botao-social">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bloco-formulario">
+                    <form class="formulario-contato">
+                        <div class="campo-formulario">
+                            <label for="name" class="label-campo">Nome</label>
+                            <input type="text" id="name" class="input-campo">
+                            <div class="warning-name" id="warning-name"></div>
+                        </div>
+                       
+                        
+                        <div class="campo-formulario">
+                            <label for="email" class="label-campo">E-mail</label>
+                            <input type="email" id="email" class="input-campo">
+                            <div class="warning-name" id="warning-email"></div>
+                        </div>
+                        
+                        <div class="campo-formulario">
+                            <label for="subject" class="label-campo">Assunto</label>
+                            <select id="subject" class="select-campo">
+                                 <option value="">Selecione um assunto</option>
+                                 <option value="duvida">Dúvida sobre produtos</option>
+                                 <option value="pedido">Pedido especial</option>
+                                 <option value="parcerias">Parcerias</option>
+                                 <option value="outros">Outros</option>
+                            </select>
+                            <div class="warning-name" id="warning-select"></div>
+                        </div>
+                        
+                        <div class="campo-formulario">
+                            <label for="message" class="label-campo">Mensagem</label>
+                            <textarea id="message" rows="5" class="textarea-campo"></textarea>
+                            <div class="warning-name" id="warning-msg"></div>
+                        </div>
+                        
+                        <button class="botao-enviar" id="button-menssage">
+                            Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="rodape">
+        <div class="container-principal">
+            <div class="grade-rodape">
+                <div class="bloco-sobre">
+                    <div class="logo-rodape">
+                        <i class="fas fa-leaf icone-logo"></i>
+                        <h3 class="texto-logo">Greenly</h3>
+                    </div>
+                    <p class="descricao-empresa">Cultivando saúde e bem-estar através das melhores ervas naturais.</p>
+                    <div class="redes-sociais">
+                        <a href="#" class="link-social">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="link-social">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="link-social">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="link-social">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bloco-links">
+                    <h4 class="titulo-categoria">Produtos</h4>
+                    <ul class="lista-links">
+                        <li><a href="#" class="link-rodape">Chás</a></li>
+                        <li><a href="#" class="link-rodape">Temperos</a></li>
+                        <li><a href="#" class="link-rodape">Ervas Medicinais</a></li>
+                        <li><a href="#" class="link-rodape">Kits Especiais</a></li>
+                        <li><a href="#" class="link-rodape">Novidades</a></li>
+                    </ul>
+                </div>
+                
+                <div class="bloco-links">
+                    <h4 class="titulo-categoria">Institucional</h4>
+                    <ul class="lista-links">
+                        <li><a href="#" class="link-rodape">Sobre Nós</a></li>
+                        <li><a href="#" class="link-rodape">Nossa Fazenda</a></li>
+                        <li><a href="#" class="link-rodape">Certificações</a></li>
+                        <li><a href="#" class="link-rodape">Trabalhe Conosco</a></li>
+                        <li><a href="#" class="link-rodape">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="bloco-links">
+                    <h4 class="titulo-categoria">Ajuda</h4>
+                    <ul class="lista-links">
+                        <li><a href="#" class="link-rodape">FAQ</a></li>
+                        <li><a href="#" class="link-rodape">Entregas</a></li>
+                        <li><a href="#" class="link-rodape">Pagamentos</a></li>
+                        <li><a href="#" class="link-rodape">Trocas e Devoluções</a></li>
+                        <li><a href="./politicadeprivacidade.html" class="link-rodape">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="direitos-autorais">
+                <p>&copy; 2025 Greenly - Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/verification.js"></script>
+</body>
+</html>
