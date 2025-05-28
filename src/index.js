@@ -19,3 +19,7 @@ app.use(routes)
 
 
 app.listen(3333, () => console.log('server runnig'))
+
+module exports = {
+    
+}
